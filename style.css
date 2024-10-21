@@ -73,7 +73,7 @@ p{
    background-color: #f4fff8;
     height: 70%;
     display: flex;
-
+    
     
 }
 .second-title{
@@ -81,9 +81,17 @@ p{
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
     color: #7B68EE;
+   
 }
 .title-and-list{
     position: relative;
+    opacity: 0;
+    filter: blur(13px);
+    transition: all 3s;
+    transform: translateX(
+        -100%
+    );
+
    
 }
 .info{
@@ -112,6 +120,13 @@ img{
     
    
     
+}
+
+.show{
+    opacity: 1;
+    transition: all 3s;
+    filter: blur(0);
+    transform: translateX(0);
 }
 
 
