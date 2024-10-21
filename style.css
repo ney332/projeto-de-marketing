@@ -70,7 +70,7 @@ p{
     font-size: 20px;
 }
 .second-part{
-   background-color: azure;
+   background-color: #f4fff8;
     height: 70%;
     display: flex;
 
@@ -109,8 +109,9 @@ li::before{
 }
 img{
     height:400px;
-    margin: 70px;
-    margin-left: 150px;
+    
+   
+    
 }
 
 
