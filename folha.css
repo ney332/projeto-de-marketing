@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    .header-container{
+        width: 100%;
+        height: 70px;
+        background-color: #7B68EE;
+        margin: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 1px 10px rgb(59, 59, 71);
+        position: fixed;
+    }
+    .second-part{
+        background-color: #dfd9d9;
+        color: rgb(29, 23, 23);
+        height: 70%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+       
+    }
+    .second-title{
+        margin: 50px;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #7B68EE;}
+       
+
+
+
+    /* Estilos específicos para telas menores (exemplo: 600 pixels de largura) */
+}

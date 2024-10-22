@@ -1,6 +1,18 @@
-@media only screen and (max-width: 600px) {
-    
-    /* Estilos específicos para telas menores (exemplo: 600 pixels de largura) */
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .header-container{
+        flex: 1 1 50%;
+    }
+    button{
+        padding: 15px;
+        font-size: 1.2em;
+    }
+
 }
 body{
 margin: 0;
@@ -95,7 +107,7 @@ p{
 }
 .second-part{
     background-color: #dfd9d9;
-   color: rgb(29, 23, 23);
+    color: rgb(29, 23, 23);
     height: 70%;
     display: flex;
    
@@ -125,7 +137,10 @@ li::before{
 
 }
 img{
-    height:400px;
+
+    max-width: 100%;
+    height: auto;
+    height:420px;
    /* opacity: 0;
     filter: blur(15px);
     transition: all 1s;
