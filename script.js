@@ -9,5 +9,5 @@ const myObserver = new IntersectionObserver((entries) => {
     })
     
 })
-const elements = document.querySelectorAll('.title-and-list')
+const elements = document.querySelectorAll('img')
 elements.forEach((element) => myObserver.observe(element));
